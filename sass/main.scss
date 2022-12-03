@@ -5,6 +5,11 @@
 
 body{
     background-color:  #cce6f8;;;
+    p{
+        color: grey;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 }
  /* HEADER */
 header{
@@ -110,7 +115,13 @@ footer{
 
    
 }
-
+    /* INDEX */
+section{
+    h5{
+        font-family: Arial, Helvetica, sans-serif;
+            color: rgb(88, 83, 83);
+    }
+}
     /* SOBRE NOSOTROS */ 
 
 .nosotros{
@@ -122,8 +133,9 @@ footer{
     /* SERVICIOS */
 .container{
         h2{
-            font-weight: 700;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(88, 83, 83);
+
         }
         p{
             font-weight: 500;
@@ -131,11 +143,14 @@ footer{
 }
 
     /* Pagina trabajos */
-.trabajos .container img{
-    width: 100%;
-    height: 50%;}
 
-/* Botones */
+.container.text-center{
+    h3{
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(88, 83, 83);
+    }
+} 
+/* Botones, Mixins */
 @mixin boton {
     border: 1px solid #5187de;
     padding: 30px;
